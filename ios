@@ -1,0 +1,10 @@
+[General]
+
+[Rule]
+FINAL,DIRECT
+
+[Host]
+www.growtopia2.com = privategts1.eu
+www.growtopia1.com = privategts1.eu
+growtopia2.com = privategts1.eu
+growtopia1.com = privategts1.eu
