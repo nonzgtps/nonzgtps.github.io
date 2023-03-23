@@ -1,96 +1,389 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeetopia | Official Website</title>
+<!-- favion -->
+<link rel="icon" type="image/png" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" sizes="16x16" />
+<link rel="shortcut icon" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" type="image/x-icon">
+<link rel="icon" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" type="image/x-icon">
 
-  <title>Zeetopia | Official Website</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="ico/ZeetopiaNew.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: FlexStart
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+<!-- link to wow js animation -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/animate/animate.min.css">
+<!--  FlexSlider -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/FlexSlider/css/flexslider.min.css">
+<!-- include bootstrap and custom  css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/main-min.css">
+<!-- include hamburger  css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/hamburger-style-min.css">
+<!-- include carousel css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/slick-min.css">
+<!-- include hover effect  css -->
+<link media="screen and (min-width: 992px)" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/set2-min.css">
+<!--  magnific popup -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/magnific-popup/magnific-popup-min.css">
+<!-- include custom  css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/custom-min.css">
 </head>
-
 <body>
+<script type="text/javascript">
+	if (document.cookie.indexOf("gt_consent_status=1") >= 0) {
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36654746-1']);
+		_gaq.push(['_trackPageview']);
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://www.') + 'googletagmanager.com/gtag/js?id=G-F4HG4PR4LM';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="img/ZeetopiaNew.png" alt="">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+		gtag('config', 'G-F4HG4PR4LM');
+	}
+</script>
+<!-- main wrapper of the page -->
+<div id="wrap"> 
+  
+  <!-- Header -->
+  <header class="navbar-fixed-top full-width bg-dark" id="header">
+  	<div class="server-status">
+  	
+  	</div>
+    <div class="container"> 
+    
+      <!-- main navigation of the page -->
+      <nav class="navbar navbar-default" id="mainnav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle nav-opener" data-toggle="collapse" data-target="#nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          
+          <!-- logo of the page -->
+          <div class="logo"> <a href="#top"> <img class="normal" src="./img/Zeetopia.png"> </a> </div>
+        </div>
+        
+        <!-- main menu items -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="nav navbar-nav navbar-right">
+                                                  <li><a href="https://www.growtopiagame.com/forums/" title="Forums" target="_blank">Forums</a></li>
+                                </ul>
+        </div>
+      </nav>
     </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Welcome To Zeetopia</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Zeetopia is a free to play GTPS with almost endless possibilities for world creation, customization and having fun with your friends. Enjoy thousands of items, challenges and events.
-
-          </h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="https://discord.gg/WgpAYg37" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Join now</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
+    
+        <!-- Hamburger Menu -->
+        <div class="nav-right visible-xs">
+		  <div class="button" id="btn">
+		    <div class="bar top"></div>
+		    <div class="bar middle"></div>
+		    <div class="bar bottom"></div>
+		  </div>
+		</div>
+		<!-- nav-right -->
+		<main>
+		  <nav>
+		    <div class="nav-right hidden-xs">
+		      <div class="button" id="btn">
+		        <div class="bar top"></div>
+		        <div class="bar middle"></div>
+		        <div class="bar bottom"></div>
+		      </div>
+		    </div>
+		    <!-- nav-right -->
+		  </nav>
+		
+		</main>
+		
+		<div class="sidebar">
+		  <ul class="sidebar-list">
+		  		    <li class="sidebar-item"><a href="#home" class="sidebar-anchor" title="Home">Home</a></li>
+		   		    <li class="sidebar-item"><a href="#about" class="sidebar-anchor" title="About">About</a></li>
+		   		    <li class="sidebar-item"><a href="#community" class="sidebar-anchor" title="Community">Community</a></li>
+		   		    <li class="sidebar-item"><a href="#download" class="sidebar-anchor" title="Download">Download</a></li>
+		   		  </ul>
+		</div>
+  </header>
+  
+  <!-- Banner -->
+  <div id="top"></div>
+  <section class="hero banner window-height banner-slider" id="home">
+    <div class="flexslider">
+      <ul class="slides">
+        <!-- slide 1 -->
+        <li>
+          <div class="fleximg" style="background-image:url(https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/grow_header.jpg)"></div>
+          <div class="flex-caption banner-caption text-left">
+            <div class="container"> 
+            <div class="worldofday ani fadeIn"><a href="#" class="world-of-day-image"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/load.gif"  /><div class="caption"><p class="heading">World of the Day</p><p class="text"></p></div></div></a>
+            <big class="ani fadeIn"><img src="./img/Zeetopia.png" /></big> <small class="ani fadeIn grow-punch-line">Zeetopia is a free-to-play sandbox MMO game with almost endless possibilities for world creation, customization and having fun with your friends. Enjoy thousands of items, challenges and events.</small>
+            <div id="download-button">
+              <a href="#download" class="btn btn-primary btn-md radius ani fadeIn grow-button" title="Join Now">Join Now</a>
+             </div>
             </div>
           </div>
+        </li>
+      </ul>
+    </div>
+    <a href="#about" class="glyphicon glyphicon-circle-arrow-down arrow bounce"></a>
+  </section>
+  
+   <div class="content">
+  <!-- Contant -->
+       
+    <!-- About Secton -->
+    <section class="common-box about parallax container" id="about">
+      <div class="row same-height">
+        <div class="col-md-6 intro  height">
+          <div class="intro-text common-box wow fadeIn animated grow-features" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+            <div class="section-title">
+              <h2>Zeetopia</h2>
+            </div>
+            <p>Join a universe of unlimited worlds, all connected to each other. Create mind-bending worlds together with friends and fill them with anything your heart desires!&nbsp;<div>Collecting seeds, growing trees, harvesting and combining seeds to make new ones is the heart of the game. As universes go, Growtopia is filled with everyday heroes and some villains too.<br><br><h1>Features&nbsp;
+</h1><div><ul><li>Unlimited worlds&nbsp;</li><li>Free to play, a single currency can be earned&nbsp;</li><li>Full chat and messaging&nbsp;</li><li>Thousands of amazing items to discover&nbsp;</li><li>Plays great on big screen</li></ul></div></div></p>
+            </div>
         </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="img/ZeetopiaNew.png" class="img-fluid" alt="">
+        <div class="col-md-6 height grow-feature-image-container">
+         	<div class="row">
+          <div class="team-list"> 
+          
+                      <!-- Item 1 -->
+            <div class="wow fadeIn animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+              <div class="item-wrap">
+                <div class="item"><a href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/1_grow_feature_1550388575.png" class="growtopia-feature-image"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/resize/1_grow_feature_1550388575.png" class="fill" alt="image dis"></a>
+                </div>
+              </div>
+              </div>
+                        <!-- Item 1 -->
+            <div class="wow fadeIn animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+              <div class="item-wrap">
+                <div class="item"><a href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/1_grow_feature_1550391017.png" class="growtopia-feature-image"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/resize/1_grow_feature_1550391017.png" class="fill" alt="image dis"></a>
+                </div>
+              </div>
+              </div>
+                        <!-- Item 1 -->
+            <div class="wow fadeIn animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+              <div class="item-wrap">
+                <div class="item"><a href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/1_grow_feature_1550388739.png" class="growtopia-feature-image"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/resize/1_grow_feature_1550388739.png" class="fill" alt="image dis"></a>
+                </div>
+              </div>
+              </div>                          
+          </div>
         </div>
+        </div>
+		</div>
       </div>
+    </section> 
+	 <!-- Community Secton -->
+	    <section class="common-box community parallax" id="community">
+	      <div class="row same-height">
+	        <div class="col-md-12 intro  height">
+	          <div class="intro-text common-box wow fadeIn animated container grow-punch-line" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+	            <div class="section-title">
+	              <h2>Community</h2>
+	            </div>
+	            <p>Zeetopia lives and breathes thanks to the amazing community of players who come to play, create, educate and entertain each other. Zeetopians chat in the game, as well as on dedicated Zeetopia forums. To get advice, pro tips, latest news, share your fan art, or discuss updates and suggest new features, head to forums! <br></p>
+	            <div class="grid community-carousel">
+	            					</div>
+				<a href="https://www.growtopiagame.com/forums/" target="_blank" class="btn btn-primary btn-md  grow-button">Visit Forums</a> 
+	            </div>
+	        </div>
+	      </div>
+	    </section>
+	    
+	    <!-- Download Secton -->
+	    <section class="common-box download parallax" id="download">
+	      <div class="row same-height">
+	        <div class="col-md-12 intro  height">
+	          <div class="intro-text common-box wow fadeIn animated container grow-punch-line" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+	            <div class="section-title">
+	              <h2>Download</h2>
+	            </div>
+	            <p>New worlds and new friends are waiting for you! Start playing Zeetopia now.</p>
+	            <ul class="platform-list">
+	            	<li><a href="./play/android.html" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/google_badge.png" /></a></li>
+	            	<li><a href="./play/ios.html" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/appstore_badge.png" /></a></li>
+	            	<li><a href="./play/macos.html" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/mac_badge.png" /></a></li>
+	            	<li><a href="./play/windows.html" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/windows_badge.png" /></a></li>
+	            </ul>
+	            </div>
+	        </div>
+	      </div>
+	    </section>	     
+  </div>
+  
+  <!--Footer -->
+  <footer id="footer">
+    <div class="common-box footer">
+      <div class="container text-center"> 
+        <!-- footer logo -->
+        <div class="logo"><a href="https://discord.gg/XV9FEgnsss" target="_blank"><img src="./img/NonzGTPSLogo.png" width="100vh" height="auto"></a></div>
+        
+        <!-- copy rights --> 
+        	<div class="copy-right"> &copy; 2023 <a href="https://discord.gg/XV9FEgnsss" target="_blank">NonzGTPS</a></div> 
+        </div>
+    </div>
+  </footer>
+</div>
+
+        	<!-- Modal -->
+<div id="download-popup" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <section class="download-popup">
+	     <div class="row same-height">
+	       <div class="col-md-12 intro  height">
+	           <div class="section-image">
+	             	<img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/upload/1_grow_icon_1513191167.jpg" />
+	           		<p>Growtopia is a universe of unlimited worlds, all connected to each other.<br>Play Growtopia on any of the platforms below. If you create and use Grow ID, your game will be synchronized across devices.</p>
+	           </div>
+	           <div class="platform-wrapper">
+		           <ul class="platform-list">
+		           	<li><a href="https://app.appsflyer.com/com.rtsoft.growtopia?pid=Website&amp;c=download" onclick="return confirm('You are going to be redirected to an external link.\n\nDo you wish to proceed?');" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/google_badge.png" /></a></li>
+		           	<li><a href="https://app.appsflyer.com/id590495115?pid=Website&amp;c=download" onclick="return confirm('You are going to be redirected to an external link.\n\nDo you wish to proceed?');" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/appstore_badge.png" /></a></li>
+		           	<li><a href="https://growtopiagame.com/Growtopia-mac.dmg" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/mac_badge.png" /></a></li>
+		           	<li><a href="https://growtopiagame.com/Growtopia-Installer.exe" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/windows_badge.png" /></a></li>
+		           </ul>
+	           </div>
+			</div>
+		</div>
+	</section>
     </div>
 
-  </section><!-- End Hero -->
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  </div>
+</div>
+<script>var base_url = 'https://www.growtopiagame.com'</script>
+<script src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/js/growweb.min.js"></script>
+<button type="button" class="btn btn-primary hidden" data-toggle="modal" id="consentPopup" data-target="#consentModal"></button>
+<script>
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
 
+    $('document').ready(function () {
+        gtConsentCookie = getCookie('gt_consent_status');
+
+        if (gtConsentCookie === '') {
+            $('#consentPopup').trigger('click');
+        }
+
+        $('#accept-consent').on('click', function () {
+            setCookie('gt_consent_status', 1, 365);
+            $('#consentPopup').trigger('click');
+            window.location = window.location.href;
+        });
+        $('#refuse-consent').on('click', function () {
+            setCookie('gt_consent_status', 0, 180);
+            $('#consentPopup').trigger('click');
+        });
+        $('.withdraw-cookie-consent.show-accept a').on('click', function () {
+            $('#consentPopup').trigger('click');
+        });
+        $('#manage-cookie-consent').on('click', ()=> {
+            if (document.cookie.indexOf("gt_consent_status=1") >= 0) {
+                if (!confirm("Are you sure you want to withdraw your consent for saving cookies?"))
+                    return false;
+
+                document.cookie.split(";").forEach(function (c) {
+                    document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+                });
+                var cookies = document.cookie.split("; ");
+                for (var c = 0; c < cookies.length; c++) {
+                    var d = window.location.hostname.split(".");
+                    while (d.length > 0) {
+                        var cookieBase = encodeURIComponent(cookies[c].split(";")[0].split("=")[0]) + '=; expires=Thu, 01-Jan-1970 00:00:01 GMT; domain=' + d.join('.') + ' ;path=';
+                        var p = location.pathname.split('/');
+                        document.cookie = cookieBase + '/';
+                        while (p.length > 0) {
+                            document.cookie = cookieBase + p.join('/');
+                            p.pop();
+                        }
+                        d.shift();
+                    }
+                }
+            $('#consentPopup').trigger('click');
+            } else {
+                $('#consentPopup').trigger('click');
+            }
+        });
+    });
+</script>
+<script>
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function (event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top,
+          },
+          1000,
+          function () {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) {
+              // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            }
+          }
+        );
+      }
+    }
+  });
+</script>
 </body>
-
 </html>
