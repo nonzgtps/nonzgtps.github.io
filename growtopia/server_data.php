@@ -1,1 +1,1 @@
-server|139.144.31.175 port|17091 type|1 #maint|`2Maintance,We will be back soon beta_server|139.144.31.175 beta_port|17119 beta_type|1 meta|localhost
+server|139.144.31.175 port|17091 type|1 #maint|Server is under maintenance. We will be back online shortly. Thank you for your patience! beta_server|beta.growtopiagame.com beta_port|27003 beta_type|1 meta|36.68.223.136 RTENDMARKERBS1001
